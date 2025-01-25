@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#Going back Home
+
+cd ~
