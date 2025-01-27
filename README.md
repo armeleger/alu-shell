@@ -1,1 +1,2 @@
-This is a README.md file of shell basics.
+#!/bin/bash
+1st task od shell, basic.
