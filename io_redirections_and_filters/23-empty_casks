@@ -1,0 +1,4 @@
+#!/bin/bash
+#!/bin/bash
+find . -type f -empty -exec basename {} \; 
+find . -type d -empty -exec basename {} \;
