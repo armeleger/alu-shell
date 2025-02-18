@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+while IFS=: read -r A1 _ A3 _ _ A6 _; do
+	echo "$A1:$A3:$A6"
+done < /etc/passwd

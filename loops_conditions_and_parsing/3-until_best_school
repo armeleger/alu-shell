@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+A=10
+until((A <= 0));
+do
+	echo "Best School"
+	((A--))
+done;

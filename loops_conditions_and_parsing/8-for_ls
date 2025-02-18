@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+for A in *; do
+	if [[ "$A" == *-* ]]; then
+	    echo "${A#*-}"
+else
+	    echo "$A"
+    fi
+done

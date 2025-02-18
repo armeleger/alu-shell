@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+A=9
+while((A >= 0));do
+
+	echo "Best School"
+	if [ "$A" -eq 1 ] ;then
+		echo "Hi"
+	fi
+	((A--))
+done;

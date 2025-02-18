@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+A=0
+while((A<10));do
+	if [ "$A" -eq 3 ] ;then
+		echo "bad luck"
+	elif [ "$A" -eq 7 ] ;then
+		echo "good luck"
+	else 
+		echo "Best School"
+	fi
+((A++))
+done;
