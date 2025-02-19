@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#for ls
 for A in *; do
 	if [[ "$A" == *-* ]]; then
 	    echo "${A#*-}"

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+#while if loop
 A=9
 while((A >= 0));do
 

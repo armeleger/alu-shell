@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#until loop
 A=10
 until((A <= 0));
 do

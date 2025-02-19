@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#while elif loop
 A=0
 while((A<10));do
 	if [ "$A" -eq 3 ] ;then

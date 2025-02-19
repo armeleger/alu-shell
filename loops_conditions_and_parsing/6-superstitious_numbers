@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#while do loop
 i=1
 while [ $i -le 20 ]
 do
